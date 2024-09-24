@@ -1,0 +1,37 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 de set de 2024, 15:37:09
+    Author     : Fatec
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-color: #4CAF50; /* Cor de fundo do menu */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px 20px; /* Espaçamento em volta do link */
+    margin: 0 10px; /* Margem entre os links */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito suave para a mudança de cor */
+}
+
+.menu a:hover {
+    background-color: #45a049; /* Cor do fundo ao passar o mouse */
+}
+

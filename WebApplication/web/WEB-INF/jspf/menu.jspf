@@ -1,0 +1,11 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/styles.css">
+
+<h1>Menu para as páginas</h1>
+<div class="menu">
+    <a href="${pageContext.request.contextPath}/index.jsp">Index</a>
+    <a href="${pageContext.request.contextPath}/número-primo.jsp">Número Primo</a>
+    <a href="${pageContext.request.contextPath}/fibonacci.jsp">Fibonacci</a>
+    <a href="${pageContext.request.contextPath}/soma.jsp">Soma</a>
+</div>
